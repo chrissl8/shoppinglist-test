@@ -10,6 +10,7 @@ $(document).ready(function(){
 		var listHTML = '<li>' +  listValue +  '</li>';
 		$('.shopping-list').prepend(listHTML); //Add list element
 		$('#list-value').val('');
+		$('#list-value').focus();
 		}
 	});
 });
