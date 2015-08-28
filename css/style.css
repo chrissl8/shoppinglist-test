@@ -45,3 +45,34 @@ body  {
 	font-style: italic;
 	text-align: center;
 }
+
+/* Responsive CSS Media Query for Mobile Devices */
+@media only screen  
+and (max-device-width : 375px) 
+and (orientation : portrait) {
+
+.submit-form {
+	border: 3px dashed black;
+	margin: 0 auto;
+	width: 95%;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	margin-top: 1rem;
+	margin-bottom: 15px;
+}
+
+.list-container {
+	border: 3px dashed black;
+	margin: 0 auto;
+	width: 95%;
+	text-align: center;
+	margin-top: 15px;
+}
+}
+
+
+
+
+
+
