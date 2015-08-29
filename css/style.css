@@ -3,7 +3,7 @@ body  {
 }
 
 .submit-form {
-	border: 3px dashed black;
+	border: 4px dashed black;
 	margin: 0 auto;
 	width: 70%;
 	text-align: center;
@@ -11,6 +11,8 @@ body  {
 	padding-bottom: 10px;
 	margin-top: 5rem;
 	margin-bottom: 15px;
+	border-radius: 6px;
+	background-color: #EBF4FA;
 }
 
 .submit-form #list-value {
@@ -39,11 +41,13 @@ body  {
 }
 
 .list-container {
-	border: 3px dashed black;
+	border: 4px dashed black;
 	margin: 0 auto;
 	width: 70%;
 	text-align: center;
 	margin-top: 15px;
+	border-radius: 6px;
+	background-color: #EBF4FA;
 }
 
 .list-container ul {
@@ -60,11 +64,24 @@ body  {
 	padding: 10px 6px 10px 6px; 
 	margin: 6px 10px 6px 10px;
 	word-wrap: break-word;
+	background-color: #FF99CC;
 }
 
 .list-container .remove-item {
 	color: red;
 	font-weight: bold;
+}
+
+.list-container .no-items {
+	color:  red;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.list-container .click-to-check {
+	font-weight: bold;
+	font-style: italic;
+	display: none;
 }
 
 .about-p {
@@ -95,6 +112,7 @@ and (orientation : portrait) {
 	text-align: center;
 	margin-top: 15px;
 }
+
 }
 
 
